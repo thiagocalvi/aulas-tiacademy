@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div#box{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #000;
+    margin: 50px auto;
+}
+div#box:hover{
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    cursor: pointer;
+}

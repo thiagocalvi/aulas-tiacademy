@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 31</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: antiquewhite;
+    }
+    main{
+        width: 60%;
+        height: auto;
+        background-color: cornflowerblue;
+        border: 2px solid #000;
+        margin: 80px auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .divColor{
+        background-color: chocolate;
+    }
+    .setting{
+        width: 100%;
+    }
+    #primeiraDiv{
+        height: 60px;
+    }
+    #segundaDiv{
+        height: 200px;
+        margin-top: 5px;
+    }
+    .flex{
+        display: flex;
+    }
+    #terceiraDiv{
+        width: 50%;
+        height: 90px;
+        margin-top: 10px;
+        border-right: 1px solid cornflowerblue;
+    }
+    #quartaDiv{
+        width: 50%;
+        height: 90px;
+        margin: 10px 0 10px 0;
+    }
+    #segundaSec{
+        justify-content: space-between;
+    }
+    #terceriaSec{
+        height: 230px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .settingDivFinal{
+        width: 49%;
+        height: 150px;
+        background-color: chartreuse;
+        border: 2px solid cornflowerblue;
+    }
+</style>
+<body>
+    <main>
+        <section>    
+            <div id="primeiraDiv" class="divColor setting"></div>
+            <div id="segundaDiv" class="divColor setting"></div>
+        </section>
+        <section id="segundaSec" class="flex">
+            <div id="terceiraDiv" class="divColor"></div>
+            <div id="quartaDiv" class="divColor"></div>
+        </section>
+        <section id="terceriaSec" class="flex divColor setting">
+            <div class="settingDivFinal"></div>
+            <div class="settingDivFinal" ></div>
+        </section>
+    </main>
+</body>
+</html>

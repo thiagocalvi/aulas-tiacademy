@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Attibutes</title>
+</head>
+<script>
+    window.onload=function(){
+        const btnBusca = document.querySelector('#btnBuscar');
+        const txtNomeCli = document.querySelector('#nomeCliente');
+        btnBusca.addEventListener('click', function(){
+            let dataSetCliente = txtNomeCli.dataset.codigo;
+            let datSetstatus = txtNomeCli.dataset.statuscli;
+            console.log(dataSetCliente, dataSetstatus);
+        })
+    }
+</script>
+<body>
+    <input type="text" data-codigo="38" data-statuscli="ativo" name="dadosCliente" value="Marcelo W" id="nomeCliente">
+    <input type="button" value="BUSCAR" name="buscar" id="btnBusca">
+</body>
+</html>

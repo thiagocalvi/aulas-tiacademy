@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left,rgb(79, 195, 247), rgb(100, 181, 246));
+}
+section#formulario{
+    width: 80%;
+    height: auto;
+    margin: 30px auto;
+    padding: 5px;
+}
+fieldset{
+    border: none;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    font-family: Helvetica;
+}
+legend{
+    font-family: Helvetica;
+    font-size: 25px;
+}
+.txt{
+    width: 60%;
+    height: 30px;
+}
+input#email, input#password{
+    padding-left: 5px;
+}
+#submit{
+    margin-top: 25px;
+    width: 15%;
+    height: 35px;
+    border-radius: 25px;
+}
+#submit:hover{
+    color: #fff;
+    background-color: #9C27B0;
+} 
